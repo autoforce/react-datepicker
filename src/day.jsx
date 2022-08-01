@@ -352,7 +352,7 @@ export default class Day extends React.Component {
       aria-current={this.isCurrentDay() ? "date" : undefined}
       aria-selected={this.isSelected()}
     >
-      {this.renderDayContents()}
+      <span>{this.renderDayContents()}</span>
     </div>
   );
 }
